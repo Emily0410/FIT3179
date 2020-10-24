@@ -13,7 +13,7 @@
       "lookup": "properties.name",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/Emily0410/FIT3179/main/hm%20week%209.csv"
+          "url": "https://raw.githubusercontent.com/Emily0410/FIT3179/main/assignment%20freedom%20situation.csv"
         },
         "key": "Country",
         "fields": ["Freedom"]

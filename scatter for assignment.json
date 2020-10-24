@@ -1,0 +1,90 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 500,
+  "height": 400,
+  "title": "relationship of Human Freedom Index between Country and personal",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Emily0410/FIT3179/main/assignment.%20data.csv"
+  },
+  "encoding": {
+    "x": {
+      "field": "HUMAN FREEDOM (Score)",
+      "type": "quantitative",
+      "title": "Country HFI",
+      "axis": {"tickCount": 20},
+      "scale": {"domain": [1, 10]}
+    },
+    "y": {
+      "field": "PERSONAL FREEDOM (Score)",
+      "type": "quantitative",
+      "title": "Personal HFI",
+      "axis": {"tickCount": 20},
+      "scale": {"domain": [1, 10]}
+    }
+  },
+  "layer": [
+    {
+      "selection": {
+        "continent_highlight": {
+          "type": "multi",
+          "fields": ["region"],
+          "bind": "legend"
+        }
+      },
+      "mark": "circle",
+      "encoding": {
+        "size": {
+          "field": "Democracy",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [0, 4, 5.9, 7.9, 10],
+            "range": [10, 50, 100, 150, 200]
+          },
+          "legend": {"format": ".1s"}
+        },
+        "color": {"field": "region", "type": "nominal"},
+        "opacity": {
+          "condition": {"selection": "continent_highlight", "value": 1},
+          "value": 0.2
+        },
+        "tooltip": [
+          {"field": "region", "type": "nominal"},
+          {"field": "Countries", "type": "nominal"},
+          {"field": "HUMAN FREEDOM (Score)", "type": "quantitative"},
+          {"field": "PERSONAL FREEDOM (Score)", "type": "quantitative"},
+          {"field": "Democracy", "type": "quantitative"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -25,
+        "fontSize": 11,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"field": "Countries", "type": "nominal"},
+        "color": {"value": "black"},
+        "opacity": {
+          "condition": {
+            "test": "datum['Countries']=='Australia'||datum['Countries']=='China'||datum['Countries']=='United States'||datum['Countries']=='United Kingdom'",
+            "value": 1
+          },
+          "value": 0
+        },
+        "tooltip": [
+          {"field": "region", "type": "nominal"},
+          {"field": "Countries", "type": "nominal"},
+          {"field": "HUMAN FREEDOM (Score)", "type": "quantitative"},
+          {"field": "PERSONAL FREEDOM (Score)", "type": "quantitative"},
+          {"field": "Democracy", "type": "quantitative"}
+        ]
+      }
+    }
+  ],
+  "config": {}
+}

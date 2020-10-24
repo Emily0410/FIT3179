@@ -1,0 +1,36 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "World Political Rights Classification 2017",
+  "width": 800,
+  "height": 600,
+  "projection": {"type": "equalEarth"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/Emily0410/FIT3179/main/custom.geo%20(1).json",
+    "format": {"type": "topojson", "feature": "custom"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.name",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/Emily0410/FIT3179/main/hm%20week%209.csv"
+        },
+        "key": "Country",
+        "fields": ["Freedom"]
+      }
+    },
+    {"calculate": "datum.PR", "as": "actual PR"}
+  ],
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "Freedom",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Free", "Not", "Partly"],
+        "range": ["#a1d99b", "#f03b20", "#fec44f"]
+      }
+    }
+  },
+  "config": {}
+}

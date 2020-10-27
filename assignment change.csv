@@ -1,0 +1,155 @@
+ISO_code,countries,region,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,difference,change
+ALB,Albania,Eastern Europe,7.68,7.74,7.71,7.52,7.44,7.44,7.69,7.58,7.67,7.84,0.16,Pos
+DZA,Algeria,Middle East & North Africa,5.29,5.28,5.26,5.15,5.06,5.16,5.2,5.04,5.22,4.99,-0.3,Neg
+AGO,Angola,Sub-Saharan Africa,5.02,5.44,5.44,5.37,5.35,5.28,5.44,5.79,5.89,5.4,0.38,Pos
+ARG,Argentina,Latin America & the Caribbean,7.1,7.06,6.96,6.93,6.64,6.55,6.27,6.54,6.75,6.86,-0.24,Neg
+ARM,Armenia,Caucasus & Central Asia,7.42,7.39,7.41,7.53,7.52,7.53,7.43,7.34,7.44,7.42,0,Not Change
+AUS,Australia,Oceania,8.73,8.68,8.69,8.64,8.6,8.56,8.69,8.61,8.62,8.62,-0.11,Neg
+AUT,Austria,Western Europe,8.42,8.4,8.37,8.46,8.49,8.53,8.58,8.56,8.47,8.48,0.06,Pos
+AZE,Azerbaijan,Caucasus & Central Asia,6.44,6.29,6.36,6.07,6.07,6.11,6.12,5.97,6.07,6.22,-0.22,Neg
+BHS,Bahamas,Latin America & the Caribbean,7.97,7.76,7.65,7.62,7.58,7.6,7.59,7.63,7.6,7.56,-0.41,Neg
+BHR,Bahrain,Middle East & North Africa,7.15,7.03,6.83,6.69,6.53,6.62,6.62,6.66,6.65,6.63,-0.52,Neg
+BGD,Bangladesh,South Asia,5.8,5.91,5.91,5.9,5.72,5.67,5.83,5.75,5.7,5.77,-0.03,Neg
+BRD,Barbados,Latin America & the Caribbean,7.21,7.35,7.35,7.35,7.37,7.38,7.34,7.25,7.21,7.02,-0.19,Neg
+BLR,Belarus,Latin America & the Caribbean,-,-,-,-,-,-,-,-,6.16,6.65,0,Not Change
+BEL,Belgium,Western Europe,8.28,8.28,8.33,8.28,8.25,8.28,8.42,8.37,8.22,8.29,0.01,Pos
+BLZ,Belize,Latin America & the Caribbean,7.37,7.21,6.95,7.23,7.17,7.07,6.94,6.95,7.14,6.95,-0.42,Neg
+BEN,Benin,Sub-Saharan Africa,6.85,6.82,6.74,6.75,6.6,6.94,6.9,6.67,6.67,6.77,-0.08,Neg
+BTN,Bhutan,South Asia,-,-,-,-,-,6.85,6.81,6.74,6.57,6.53,0,Not Change
+BOL,Bolivia,Latin America & the Caribbean,6.75,6.91,6.84,6.96,6.88,6.85,6.71,6.64,6.65,6.61,-0.14,Neg
+BIH,Bosnia and Herzegovina,Eastern Europe,7.27,7.38,7.45,7.35,7.33,7.25,7.5,7.3,7.39,7.37,0.1,Pos
+BWA,Botswana,Sub-Saharan Africa,6.81,6.74,6.87,6.83,6.85,6.86,6.98,7,7.08,7.17,0.36,Pos
+BRA,Brazil,Latin America & the Caribbean,7.05,7.02,7.12,7.05,6.89,6.75,6.45,6.21,6.28,6.48,-0.57,Neg
+BRN,Brunei Darussalam,South Asia,-,-,6.66,6.74,6.77,6.51,5.99,5.89,5.99,5.69,0,Not Change
+BGR,Bulgaria,Eastern Europe,7.78,7.88,7.87,7.88,7.84,7.84,7.87,7.82,7.78,7.79,0.01,Pos
+BFA,Burkina Faso,Sub-Saharan Africa,6.84,6.75,6.84,6.7,6.57,6.71,6.57,6.56,6.63,6.73,-0.11,Neg
+BDI,Burundi,Sub-Saharan Africa,5.7,6.13,5.8,5.83,5.77,6.14,5.49,5.13,5.39,5.56,-0.14,Neg
+KHM,Cambodia,South Asia,5.95,-,7.22,7.14,7.14,7.3,7.26,7.4,7.33,7.13,1.18,Pos
+CMR,Cameroon,Sub-Saharan Africa,-,5.8,5.9,6.02,6.03,5.99,5.73,5.42,5.68,5.64,0,Not Change
+CAN,Canada,North America,5.7,8.68,8.67,8.63,8.64,8.66,8.74,8.57,8.6,8.65,2.95,Pos
+TCD,Chad,Sub-Saharan Africa,5.58,5.35,5.55,5.3,5.26,5.41,5.51,5.4,5.11,5.46,-0.12,Neg
+CHL,Chile,Latin America & the Caribbean,5.23,8.12,8.16,8.18,8.11,8.03,8.05,8.02,8,8.15,2.92,Pos
+CHN,China,East Asia,8.11,6.06,6.03,6.05,6.07,6.1,6.02,5.91,6.02,6.17,-1.94,Neg
+COL,Colombia,Latin America & the Caribbean,6.11,6.79,6.88,6.72,6.72,6.71,6.83,6.81,6.83,6.93,0.82,Pos
+COD,"Congo, Dem. R.",Latin America & the Caribbean,6.78,5.36,5.36,5.06,4.81,4.93,5.01,5.29,5.56,5.36,-1.42,Neg
+COG,"Congo, Rep. Of",Sub-Saharan Africa,5.27,5.66,5.69,5.49,5.46,5.64,5.76,5.8,5.61,5.8,0.53,Pos
+CRI,Costa Rica,Latin America & the Caribbean,5.55,7.81,7.74,7.87,7.94,7.92,8.06,7.84,7.79,7.7,2.15,Pos
+CIV,C?te d'Ivoire,Sub-Saharan Africa,7.81,6.03,5.97,6,6.11,6.46,6.49,6.4,6.56,6.59,-1.22,Neg
+HRV,Croatia,Eastern Europe,7.46,7.64,7.47,7.74,7.73,7.68,7.75,7.8,7.72,7.86,0.4,Pos
+CYP,Cyprus,Eastern Europe,8.39,8.31,8.34,8.14,7.99,7.83,8.01,8.17,8.09,7.93,-0.46,Neg
+CZE,Czech Rep.,Eastern Europe,8.3,8.29,8.27,8.25,8.33,8.29,8.33,8.36,8.38,8.34,0.04,Pos
+DNK,Denmark,Latin America & the Caribbean,8.73,8.63,8.69,8.64,8.59,8.66,8.66,8.6,8.52,8.56,-0.17,Neg
+DOM,Dominican Rep.,Latin America & the Caribbean,6.6,6.83,6.94,7,6.91,7.03,7.15,6.97,7.06,6.95,0.35,Pos
+ECU,Ecuador,Middle East & North Africa,6.7,6.63,6.64,6.68,6.72,6.69,6.54,6.77,6.89,6.82,0.12,Pos
+EGY,Egypt,Latin America & the Caribbean,5.82,5.71,5.75,5.45,5.45,5.23,4.87,4.49,4.49,4.5,-1.32,Neg
+SLV,El Salvador,Eastern Europe,7.4,7.18,7.21,7.02,7.14,7.19,7.4,7.07,7,6.89,-0.51,Neg
+EST,Estonia,Sub-Saharan Africa,8.44,8.44,8.5,8.4,8.38,8.38,8.43,8.46,8.48,8.46,0.02,Pos
+SWZ,Eswatini,Sub-Saharan Africa,-,-,6.11,6.04,6.14,6.37,6.22,6.32,6.28,6.4,0,Not Change
+ETH,Ethiopia,Sub-Saharan Africa,5.33,5.48,5.37,5.26,5.3,5.35,5.09,5.08,5.23,5.25,-0.08,Neg
+FJI,Fiji,Oceania,7.46,7.23,7.19,7.11,7.02,6.81,7.01,7.15,7.28,7.17,-0.29,Neg
+FIN,Finland,Western Europe,8.7,8.66,8.7,8.73,8.68,8.62,8.68,8.59,8.51,8.53,-0.17,Neg
+FRA,France,Western Europe,8.25,8.25,8.15,8.08,8.05,8.04,8.1,8.08,8.04,8.02,-0.23,Neg
+GAB,Gabon,Sub-Saharan Africa,5.79,5.86,5.73,5.74,5.5,5.69,5.48,5.6,5.69,5.99,0.2,Pos
+GMB,"Gambia, The",Sub-Saharan Africa,-,-,6.52,6.41,6.22,6.32,6.26,6.09,6.09,5.94,0,Not Change
+GEO,Georgia,Caucasus & Central Asia,7.48,7.67,7.78,7.65,7.66,7.79,7.91,7.88,7.65,7.74,0.26,Pos
+DEU,Germany,Western Europe,8.42,8.44,8.41,8.53,8.49,8.53,8.58,8.57,8.55,8.53,0.11,Pos
+GHA,Ghana,Sub-Saharan Africa,7.21,7.29,7.18,7.26,7.17,7.16,6.96,6.96,7.1,6.94,-0.27,Neg
+GRC,Greece,Eastern Europe,7.77,7.7,7.69,7.67,7.59,7.54,7.55,7.32,7.25,7.33,-0.44,Neg
+GTM,Guatemala,Latin America & the Caribbean,7.21,7.18,7.18,7.08,7.14,7.19,7.32,7.13,7.1,7.07,-0.14,Neg
+GIN,Guinea,Sub-Saharan Africa,-,-,-,-,-,5.68,5.41,5.46,5.6,5.61,0,Not Change
+GNB,Guinea-Bissau,Sub-Saharan Africa,5.97,6.06,5.97,5.82,5.81,5.45,5.93,6.06,5.97,6.07,0.1,Pos
+GUY,Guyana,Latin America & the Caribbean,6.68,6.86,6.76,7.11,7.05,6.89,6.6,6.72,6.69,6.74,0.06,Pos
+HTI,Haiti,Latin America & the Caribbean,7.04,7.02,6.71,6.75,6.49,6.74,6.99,6.85,6.83,6.71,-0.33,Neg
+HND,Honduras,Latin America & the Caribbean,7.13,6.99,6.99,6.72,6.74,6.6,6.9,6.81,6.71,6.81,-0.32,Neg
+HKG,Hong Kong,East Asia,9.12,9.06,9.02,9.02,8.99,8.94,8.87,8.82,8.74,8.81,-0.31,Neg
+HUN,Hungary,Eastern Europe,8.11,8.15,8.15,8.07,7.94,7.9,7.95,7.84,7.76,7.65,-0.46,Neg
+ISL,Iceland,Western Europe,8.22,8.01,7.88,8.12,8.13,8.14,8.26,8.22,8.39,8.41,0.19,Pos
+IND,India,South Asia,6.8,6.78,6.75,6.92,6.78,6.69,6.34,6.49,6.54,6.64,-0.16,Neg
+IDN,Indonesia,South Asia,6.81,6.88,7,6.93,6.87,6.98,6.7,6.78,6.93,6.83,0.02,Pos
+IRN,Iran,Middle East & North Africa,5.29,5.06,4.99,4.78,4.55,4.65,4.8,5.01,5.11,5.1,-0.19,Neg
+IRQ,Iraq,Middle East & North Africa,-,-,-,-,-,-,-,-,4.28,4.34,0,Not Change
+IRL,Ireland,Western Europe,8.48,8.39,8.44,8.51,8.53,8.56,8.49,8.68,8.54,8.52,0.04,Pos
+ISR,Israel,Middle East & North Africa,7.41,7.51,7.74,7.66,7.6,7.64,7.46,7.66,7.87,7.61,0.2,Pos
+ITA,Italy,Western Europe,8.01,7.97,8.06,8.07,8.05,8.06,8.06,8.09,8.05,8.04,0.03,Pos
+JAM,Jamaica,Latin America & the Caribbean,7.16,7.19,7.1,7.01,7.07,7.17,7.17,7.18,7.17,7.2,0.04,Pos
+JPN,Japan,East Asia,8.31,8.26,8.26,8.26,8.29,8.32,8.3,8.3,8.3,8.28,-0.03,Neg
+JOR,Jordan,Middle East & North Africa,6.59,6.63,6.68,6.79,6.79,6.91,6.84,6.91,6.94,6.84,0.25,Pos
+KAZ,Kazakhstan,Caucasus & Central Asia,6.91,6.9,6.88,6.62,6.8,6.7,6.71,6.77,6.75,6.9,-0.01,Neg
+KEN,Kenya,Sub-Saharan Africa,6.61,6.66,6.69,6.75,6.68,6.64,6.64,6.69,6.98,6.85,0.24,Pos
+KOR,"Korea, South",East Asia,8.15,8.06,8.17,8.08,8.06,8.02,8.23,8.21,8.26,8.2,0.05,Pos
+KWT,Kuwait,Middle East & North Africa,6.6,6.63,6.5,6.39,6.37,6.33,6.13,5.89,6.15,6.19,-0.41,Neg
+KGZ,Kyrgyz Republic,Caucasus & Central Asia,6.65,6.62,6.27,6.27,6.34,6.4,6.54,6.47,6.81,6.98,0.33,Pos
+LVA,Latvia,Eastern Europe,8.16,7.98,8.05,8.16,8.19,8.25,8.3,8.33,8.3,8.29,0.13,Pos
+LBN,Lebanon,Middle East & North Africa,-,-,6.72,6.86,6.82,6.63,6.42,6.54,6.78,6.74,0,Not Change
+LSO,Lesotho,Sub-Saharan Africa,6.16,6.1,6.08,6.28,6.24,6.48,6.65,6.65,6.58,6.54,0.38,Pos
+LBR,Liberia,Sub-Saharan Africa,-,-,-,-,-,-,6.6,6.48,6.36,6.35,0,Not Change
+LBY,Libya,Middle East & North Africa,-,-,-,-,-,4.98,4.54,4.48,4.48,4.64,0,Not Change
+LTU,Lithuania,Eastern Europe,7.94,8.01,8.06,8.1,8.11,8.19,8.34,8.38,8.35,8.32,0.38,Pos
+LUX,Luxembourg,Western Europe,8.46,8.36,8.46,8.44,8.4,8.49,8.64,8.56,8.52,8.56,0.1,Pos
+MDG,Madagascar,Sub-Saharan Africa,6.69,6.68,6.76,6.68,6.62,6.85,6.75,6.59,6.51,6.32,-0.37,Neg
+MWI,Malawi,South Asia,6.68,6.73,6.71,6.98,6.77,6.57,6.56,6.58,6.65,6.6,-0.08,Neg
+MYS,Malaysia,Sub-Saharan Africa,6.38,6.5,6.51,6.55,6.44,6.67,6.56,6.67,6.52,6.52,0.14,Pos
+MLI,Mali,Western Europe,6.07,6.16,6.24,6.05,5.92,5.88,5.88,5.93,5.98,6.03,-0.04,Neg
+MLT,Malta,Sub-Saharan Africa,8.42,8.45,8.4,8.41,8.34,8.39,8.43,8.48,8.45,8.37,-0.05,Neg
+MRT,Mauritania,Sub-Saharan Africa,5.52,5.64,5.47,5.58,5.42,5.4,5.38,5.34,5.36,5.47,-0.05,Neg
+MUS,Mauritius,Latin America & the Caribbean,8.18,8.1,8.19,8.25,8.29,8.13,7.97,7.82,7.75,7.52,-0.66,Neg
+MEX,Mexico,Eastern Europe,6.94,6.87,6.76,6.74,6.67,6.72,6.81,6.88,6.78,6.65,-0.29,Neg
+MDA,Moldova,East Asia,7.17,7.13,7,7.03,7.01,6.95,6.84,6.78,6.88,6.93,-0.24,Neg
+MNG,Mongolia,Eastern Europe,7.17,7.3,7.33,7.55,7.5,7.59,7.64,7.67,7.7,7.61,0.44,Pos
+MNE,Montenegro,Middle East & North Africa,7.67,7.62,7.79,7.66,7.66,7.6,7.69,7.54,7.34,7.43,-0.24,Neg
+MAR,Morocco,Sub-Saharan Africa,6.24,6.32,6.33,6.31,6.33,6.34,6.14,6.16,6.25,6.18,-0.06,Neg
+MOZ,Mozambique,South Asia,6.14,5.97,6.01,6.13,6.2,6.18,5.96,6.1,6.05,6.24,0.1,Pos
+MMR,Myanmar,Sub-Saharan Africa,4.81,5.21,4.92,4.83,5.25,5.33,5.67,5.49,5.58,5.44,0.63,Pos
+NAM,Namibia,South Asia,6.97,6.99,6.96,6.95,6.96,6.95,6.89,6.94,6.88,6.75,-0.22,Neg
+NPL,Nepal,Western Europe,6.83,6.84,6.93,6.81,6.72,6.75,6.76,6.72,6.59,6.51,-0.32,Neg
+NLD,Netherlands,Oceania,8.49,8.4,8.42,8.48,8.43,8.43,8.5,8.56,8.57,8.5,0.01,Pos
+NZL,New Zealand,Latin America & the Caribbean,8.94,8.85,8.92,8.82,8.82,8.82,8.95,8.89,8.9,8.88,-0.06,Neg
+NIC,Nicaragua,Sub-Saharan Africa,7.22,7.16,7.21,6.96,7.02,7.06,6.91,6.68,6.72,6.86,-0.36,Neg
+NER,Niger,Sub-Saharan Africa,6,6.24,6.38,6.02,5.94,5.98,5.76,5.61,5.7,5.87,-0.13,Neg
+NGA,Nigeria,Eastern Europe,6.1,5.83,5.83,5.89,5.98,6.13,6.06,6.03,6.36,6.38,0.28,Pos
+NOR,Norway,Western Europe,8.61,8.49,8.55,8.49,8.6,8.61,8.6,8.31,8.51,8.44,-0.17,Neg
+OMN,Oman,Middle East & North Africa,6.3,6.29,6.18,6.29,6.34,6.31,6.27,6.05,6,5.98,-0.32,Neg
+PAK,Pakistan,South Asia,5.44,5.65,5.55,5.61,5.48,5.43,5.47,5.65,5.61,5.69,0.25,Pos
+PAN,Panama,Latin America & the Caribbean,7.53,7.56,7.51,7.51,7.54,7.59,7.6,7.69,7.65,7.69,0.16,Pos
+PRY,Paraguay,Latin America & the Caribbean,7.02,6.91,7.07,7.13,7.06,7,6.9,6.9,6.97,6.9,-0.12,Neg
+PER,Peru,Latin America & the Caribbean,7.46,7.51,7.57,7.66,7.55,7.42,7.51,7.61,7.58,7.55,0.09,Pos
+PHL,Philippines,South Asia,6.92,6.8,7.02,6.96,6.92,6.83,6.92,7.11,6.98,6.88,-0.04,Neg
+POL,Poland,Eastern Europe,8.02,8.1,8.07,8.21,8.16,8.12,8.16,8.02,7.8,7.78,-0.24,Neg
+PRT,Portugal,Western Europe,8.11,7.98,8.05,8.18,8.18,8.27,8.32,8.28,8.25,8.27,0.16,Pos
+QAT,Qatar,Middle East & North Africa,-,-,6.22,6.19,6.5,6.49,6.46,6.32,6.24,6.15,0,Not Change
+ROU,Romania,Eastern Europe,8,8.04,8.04,7.95,7.98,8.06,8.3,8.17,8.14,8.11,0.11,Pos
+RUS,Russia,Eastern Europe,6.49,6.41,6.47,6.43,6.47,6.46,6.23,6.09,6.24,6.34,-0.15,Neg
+RWA,Rwanda,Sub-Saharan Africa,7,7.31,7.14,6.86,6.83,6.91,6.82,7.01,6.87,6.82,-0.18,Neg
+SAU,Saudi Arabia,Middle East & North Africa,-,-,5.66,5.41,5.33,5.44,5.45,5.25,5.41,5.42,0,Not Change
+SEN,Senegal,Sub-Saharan Africa,6.29,6.4,6.3,6.13,6.11,6.37,6.42,6.37,6.44,6.57,0.28,Pos
+SRB,Serbia,Eastern Europe,7.19,7.19,7.04,7.04,7.15,7.26,7.37,7.35,7.33,7.3,0.11,Pos
+SYC,Seychelles,Sub-Saharan Africa,-,-,-,-,-,7.14,7.28,7.53,7.54,7.16,0,Not Change
+SLE,Sierra Leone,Sub-Saharan Africa,6.24,6.28,6.33,6.13,6.24,6.15,6.31,6.29,6.01,5.99,-0.25,Neg
+SGP,Singapore,South Asia,8.1,8.13,8.01,7.9,7.82,7.83,7.97,8.08,8.1,8.11,0.01,Pos
+SVN,Slovenia,Eastern Europe,7.88,7.87,7.78,7.94,7.96,7.9,8.04,8.06,7.96,7.97,0.09,Pos
+ZAF,South Africa,Sub-Saharan Africa,6.78,6.81,6.87,7.11,7.05,7.06,7.18,7.24,6.99,7.08,0.3,Pos
+ESP,Spain,Western Europe,8.22,8.13,8.23,8.18,8.16,8.09,8.22,8.2,8.17,8.12,-0.1,Neg
+LKA,Sri Lanka,South Asia,5.69,5.97,6.39,6.2,6.06,6.31,6.19,6.39,6.45,6.41,0.72,Pos
+SDN,Sudan,South Asia,-,-,-,-,-,-,-,-,4.44,4.32,0,Not Change
+SUR,Suriname,Sub-Saharan Africa,-,-,7.19,7.04,7.13,7.17,7.18,7.44,7.17,7.48,0,Not Change
+SWE,Sweden,Western Europe,8.48,8.45,8.54,8.53,8.5,8.46,8.54,8.6,8.5,8.5,0.02,Pos
+CHE,Switzerland,Western Europe,8.83,8.84,8.86,8.82,8.81,8.73,8.82,8.81,8.79,8.82,-0.01,Neg
+SYR,Syria,Middle East & North Africa,5.34,5.43,5.39,5.49,4.72,3.88,3.94,3.83,3.69,3.79,-1.55,Neg
+TJK,Tajikistan,Caucasus & Central Asia,-,-,6.64,6.44,6.66,6.3,6.22,5.99,5.99,5.77,0,Not Change
+TZA,Tanzania,Sub-Saharan Africa,6.37,6.49,6.6,6.68,6.56,6.7,6.49,6.43,6.36,6.26,-0.11,Neg
+THA,Thailand,South Asia,7.11,7.08,7.02,6.95,6.74,6.69,6.61,6.58,6.49,6.55,-0.56,Neg
+TLS,Timor-Leste,South Asia,-,-,6.41,6.62,6.46,6.45,6.48,6.53,6.4,6.76,0,Not Change
+TGO,Togo,Sub-Saharan Africa,5.67,5.56,5.56,5.51,5.55,6.2,6.4,6.25,6.36,6.31,0.64,Pos
+TTO,Trinidad and Tobago,Latin America & the Caribbean,6.81,6.77,6.72,6.8,6.75,6.75,6.75,6.58,6.68,6.62,-0.19,Neg
+TUN,Tunisia,Middle East & North Africa,6.1,6.12,5.96,6.41,6.26,6.21,6.43,6.34,6.13,6.08,-0.02,Neg
+TUR,Turkey,Middle East & North Africa,6.96,6.99,7.01,7.23,7.1,7.08,6.69,6.66,6.29,6.21,-0.75,Neg
+UGA,Uganda,Sub-Saharan Africa,6.4,6.39,6.51,6.33,6.31,6.51,6.69,6.63,6.71,6.61,0.21,Pos
+UKR,Ukraine,Eastern Europe,6.81,6.82,6.91,6.95,6.88,6.82,6.14,5.88,6.16,6.26,-0.55,Neg
+GBR,United Kingdom,Western Europe,8.55,8.55,8.51,8.54,8.52,8.53,8.56,8.55,8.52,8.47,-0.08,Neg
+USA,United States,North America,8.39,8.26,8.25,8.3,8.39,8.35,8.4,8.44,8.45,8.46,0.07,Pos
+URY,Uruguay,Latin America & the Caribbean,7.93,7.93,8.05,8.01,7.92,7.8,7.68,7.71,7.64,7.74,-0.19,Neg
+VEN,Venezuela,Latin America & the Caribbean,5.27,5.18,5.02,5.21,5.09,4.84,4.5,4.08,4.13,3.8,-1.47,Neg
+VNM,Vietnam,South Asia,6.31,6.4,6.36,6.16,6.1,6.13,6.07,6.06,6.06,6.29,-0.02,Neg
+YEM,"Yemen, Rep.",Middle East & North Africa,-,-,5.4,4.59,4.61,4.74,4.79,4.21,4.19,4.3,0,Not Change
+ZMB,Zambia,Sub-Saharan Africa,6.67,6.69,6.66,6.92,6.84,6.66,6.54,6.51,6.39,6.49,-0.18,Neg
+ZWE,Zimbabwe,Sub-Saharan Africa,4.96,4.91,4.92,5.13,5.16,5.48,5.56,5.73,5.72,5.65,0.69,Pos

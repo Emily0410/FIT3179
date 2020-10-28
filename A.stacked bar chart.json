@@ -1,0 +1,70 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 600,
+  "title":"Top&Worst 10 Countries for Score Changed ",
+  "data": { "url": "https://raw.githubusercontent.com/Emily0410/FIT3179/main/top%2010%20worst%2010.csv"},
+  "params":[
+    {
+      "name":"TW",
+      "bind":{
+        "input": "select",
+        "options": [
+          null,
+          "TOP 10",
+          "WORST 10"
+        ],
+        "labels": [
+          "show all",
+          "Top 10 Positive Change",
+          "Worst 10 Negative Change"
+        ],
+        "name": "Top/Worst selection:"
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "TW == null || datum.TW == TW"}
+  ],
+  "layer":[
+    {
+      "selection": {
+       "highlight": {"type": "single","on": "mouseover"},
+       "select": {"type": "multi"}
+      },
+      "mark": "bar",
+      "encoding": {
+        "y": {
+        "field": "countries",
+        "title": "Country"
+        },
+        "x": {
+          "aggregate": "mean", 
+          "field": "difference",
+          "type": "quantitative",
+          "title": "Score Changed Compared with Base Year",
+          "scale": {"domain" :[-3,3]}
+        },
+        "color": {
+          "field":"change",
+          "title":"Score Changed",
+          "scale": {
+            "domain":["Pos","Neg","Not Change"],
+            "range": ["#fc8d59","#91bfdb","white"]
+          }
+        },
+        "opacity": {
+          "condition": {"selection": "highlight", "value": 1},
+          "value": 0.4
+        },
+        "tooltip" :[
+          {"field": "region", "type": "nominal","title":"Region"},
+          {"field":"countries", "type": "nominal", "title": "Country"},
+          {"field": "2008","type": "quantitative","title": "HFI in Base Year"},
+          {"field": "2017","type": "quantitative","title": "HFI in 2017"},
+          {"field": "difference","type": "quantitative","title": "Score Changed Compared with Base Year"}
+        ]
+      }
+    }
+  ],
+  "config": {}
+}

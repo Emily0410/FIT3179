@@ -1,0 +1,54 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "World Political Rights Situation 2017",
+  "width": 800,
+  "height": 600,
+  "projection": {"type": "equalEarth"},
+  "data": {
+    "url": " https://raw.githubusercontent.com/Emily0410/FIT3179/main/custom.geo%20(2)%20(1).json",
+    "format": {"type": "topojson", "feature": "custom"}
+  },
+  "mark": {"type": "geoshape", "fill": "lightgray"},
+  "layer": [
+    {
+      "data": {
+        "url": " https://raw.githubusercontent.com/Emily0410/FIT3179/main/custom.geo%20(2)%20(1).json",
+        "format": {"type": "topojson", "feature": "custom"}
+      },
+      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
+    },
+    {
+      "transform": [
+        {
+          "lookup": "properties.name",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/Emily0410/FIT3179/main/assignment%20freedom%20situation.csv"
+            },
+            "key": "Country",
+            "fields": ["Freedom","PR","CL"]
+          }
+        }
+      ],
+      "mark": {"type": "geoshape"},
+      "encoding": {
+        "color": {
+          "field": "Freedom",
+          "type": "nominal",
+          "title":"Freedom Situation",
+          "scale": {
+            "domain": ["Free", "Partly","Not",null],
+            "range": ["#c6dbef","#6baed6", "#08519c","lightgray"]
+          }
+        },
+        "tooltip":[
+            {"field": "properties.name", "type":"nominal","title":"Country"},
+            {"field": "Freedom", "type":"nominal","title":"Freedom Situation"},
+            {"field": "PR", "type":"quantitative","title":"Political Rights"},
+            {"field": "CL", "type":"quantitative","title":"Civil Liberties"}
+        ]
+      }
+    }
+  ],
+  "config": {}
+}

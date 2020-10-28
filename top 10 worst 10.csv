@@ -1,0 +1,21 @@
+﻿ISO_code,countries,region,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,difference,change,T or W
+NZL,New Zealand,Latin America & the Caribbean,8.94,8.85,8.92,8.82,8.82,8.82,8.95,8.89,8.9,8.88,-0.06,Neg,TOP 10
+CHE,Switzerland,Western Europe,8.83,8.84,8.86,8.82,8.81,8.73,8.82,8.81,8.79,8.82,-0.01,Neg,TOP 10
+HKG,Hong Kong,East Asia,9.12,9.06,9.02,9.02,8.99,8.94,8.87,8.82,8.74,8.81,-0.31,Neg,TOP 10
+CAN,Canada,North America,5.7,8.68,8.67,8.63,8.64,8.66,8.74,8.57,8.6,8.65,2.95,Pos,TOP 10
+AUS,Australia,Oceania,8.73,8.68,8.69,8.64,8.6,8.56,8.69,8.61,8.62,8.62,-0.11,Neg,TOP 10
+DNK,Denmark,Latin America & the Caribbean,8.73,8.63,8.69,8.64,8.59,8.66,8.66,8.6,8.52,8.56,-0.17,Neg,TOP 10
+LUX,Luxembourg,Western Europe,8.46,8.36,8.46,8.44,8.4,8.49,8.64,8.56,8.52,8.56,0.1,Pos,TOP 10
+FIN,Finland,Western Europe,8.7,8.66,8.7,8.73,8.68,8.62,8.68,8.59,8.51,8.53,-0.17,Neg,TOP 10
+DEU,Germany,Western Europe,8.42,8.44,8.41,8.53,8.49,8.53,8.58,8.57,8.55,8.53,0.11,Pos,TOP 10
+IRL,Ireland,Western Europe,8.48,8.39,8.44,8.51,8.53,8.56,8.49,8.68,8.54,8.52,0.04,Pos,TOP 10
+ETH,Ethiopia,SubSaharan Africa,5.33,5.48,5.37,5.26,5.3,5.35,5.09,5.08,5.23,5.25,-0.08,Neg,WORST 10
+IRN,Iran,Middle East & North Africa,5.29,5.06,4.99,4.78,4.55,4.65,4.8,5.01,5.11,5.1,-0.19,Neg,WORST 10
+DZA,Algeria,Middle East & North Africa,5.29,5.28,5.26,5.15,5.06,5.16,5.2,5.04,5.22,4.99,-0.3,Neg,WORST 10
+LBY,Libya,Middle East & North Africa,-,-,-,-,-,4.98,4.54,4.48,4.48,4.64,0,Not Change,WORST 10
+EGY,Egypt,Latin America & the Caribbean,5.82,5.71,5.75,5.45,5.45,5.23,4.87,4.49,4.49,4.5,-1.32,Neg,WORST 10
+IRQ,Iraq,Middle East & North Africa,-,-,-,-,-,-,-,-,4.28,4.34,0,Not Change,WORST 10
+SDN,Sudan,South Asia,-,-,-,-,-,-,-,-,4.44,4.32,0,Not Change,WORST 10
+YEM,"Yemen, Rep.",Middle East & North Africa,-,-,5.4,4.59,4.61,4.74,4.79,4.21,4.19,4.3,0,Not Change,WORST 10
+VEN,Venezuela,Latin America & the Caribbean,5.27,5.18,5.02,5.21,5.09,4.84,4.5,4.08,4.13,3.8,-1.47,Neg,WORST 10
+SYR,Syria,Middle East & North Africa,5.34,5.43,5.39,5.49,4.72,3.88,3.94,3.83,3.69,3.79,-1.55,Neg,WORST 10

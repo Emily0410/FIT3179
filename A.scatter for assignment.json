@@ -1,7 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 500,
-  "height": 400,
+  "background":"#fff5eb",
+  "width": 600,
+  "height": 450,
   "title": "Relationship between HFI(Country & personal) and Democracy",
   "data": {
     "url": "https://raw.githubusercontent.com/Emily0410/FIT3179/main/assignment.%20data.csv"
@@ -88,8 +89,8 @@
           "type": "quantitative",
           "scale": {
             "type": "threshold",
-            "domain": [0, 4, 5.9, 7.9, 10],
-            "range": [10, 50, 100, 150, 200]
+            "domain": [0, 4, 5.9, 7.9],
+            "range": [10, 100, 200, 300, 450]
           },
           "legend": {"format": ".1s"}
         },

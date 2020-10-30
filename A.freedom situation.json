@@ -1,8 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "World Political Rights Situation 2017",
-  "width": 800,
-  "height": 600,
+  "background":"#fff5eb",
+  "title": "Human Freedom Situation 2017",
+  "width": 650,
+  "height": 450,
   "projection": {"type": "equalEarth"},
   "data": {
     "url": " https://raw.githubusercontent.com/Emily0410/FIT3179/main/custom.geo%20(2)%20(1).json",

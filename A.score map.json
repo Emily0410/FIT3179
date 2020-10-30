@@ -1,8 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "background":"#fff5eb",
   "title": "Human Freedom Index 2017",
-  "width": 800,
-  "height": 600,
+  "width": 650,
+  "height": 450,
   "projection": {"type": "equalEarth"},
   "data": {
     "url": " https://raw.githubusercontent.com/Emily0410/FIT3179/main/custom.geo%20(2)%20(1).json",
@@ -48,4 +49,5 @@
   ],
   "config": {}
 }
+ 
  

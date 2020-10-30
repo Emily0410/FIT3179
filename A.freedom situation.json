@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "background":"#fff5eb",
   "title": "Human Freedom Situation 2017",
-  "width": 600,
-  "height": 400,
+  "width": 500,
+  "height": 350,
   "projection": {"type": "equalEarth"},
   "data": {
     "url": " https://raw.githubusercontent.com/Emily0410/FIT3179/main/custom.geo%20(2)%20(1).json",

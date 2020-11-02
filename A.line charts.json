@@ -68,7 +68,7 @@
           "type": "quantitative",
           "title": "Human Freedom Index"
         },
-        "color": {"field": "region", "type": "nominal","title": "Select Country"},
+        "color": {"field": "countries", "type": "nominal","title": "Select Country"},
         "opacity": {
           "condition": {"selection": "country_highlight", "value": 1},
           "value": 0.1

@@ -1,40 +1,124 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
-  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
-  <!-- Import vega-embed -->
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-  
-  <!-- CSS file -->
-  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+    
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+    <!-- Import vega-embed -->
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <!-- Import pure.css -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .move-right{
+            padding-left: 30px;
+        }
+    </style>
   
 </head>
+    
 <body>
-
-<h1>Multiple Visualisations HW week 10</h1>
-
-<h2>World Political Rights Classification 2017</h2>
-<div id="choropleth_map"></div>
-
-<h2>relationship of Human Freedom Index between Country and personal</h2>
-<div id="scatter_plot"></div>
-
-<script type="text/javascript">
+  <div class="page">
+      
+    <h1>Human Freedom Index </h1>
+    <p>The <p1>Human Freedom Index (HFI)</p1> is based on a wide range of measures that describe the state of human freedom, including personal, civil and economic freedom. The index represents a broad measure of human freedom and is understood as lacking coercive constraints. It uses 79 different indicators of personal and economic freedom. The index was created in 2015 and covers <p1>159 countries from 2008 to 2017</p1>.
+    </p>
+    
+    <div class="C-map1">  
+        <h2>HFI Global Situation 2017</h2>
+        <div class="pure-g">
+            <div class="pure-u-16-24">
+                <div id="freedom_situation"></div>
+            </div>
+            <div class="pure-u-8-24">
+                <div class="move-right">
+                    <p>Depending on the ratings, the nations are then classified as <p1>"Free", "Party Free", or "Not Free"</p1>. Raymond Gastil raised that there are two significant components, the average of each pair of ratings on <p1>Political Rights and Civil Liberties</p1> determines the HFI overall status of each country. This map shows Freedom Situation in 159 countries by its classification – <p1>"Free", "Party Free", or "Not Free"</p1>.</p>
+                </div>
+            </div>
+        </div>
+        <p2>*In Tooltip, lower score of political rights and civil liberties represent more civil rights and political freedoms. </p2>
+    </div>
+        
+    <div class="C-map2">
+        <h2>HFI Score 2017</h2>
+        <div class="pure-g">
+            <div class="pure-u-16-24">
+                <div id="score_map"></div>
+            </div>
+            <div class="pure-u-8-24">
+                <div class="move-right">
+                    <p>This map shows the <p1>Ranking</p1> of the HFI scores of 159 countries, with darker colours representing lower scores, meaning less freedom. In opposite, Light colours represent more free countries.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="34chart">
+        <div class="pure-g">
+            <div class="pure-u-16-24">
+                <h2>Relationship of Democracy and HFI (Country & Personal)</h2>
+                <div id="bubble"></div>
+                <p2>*Change Democracy level by slider and select Region and country to see your target country.</p2> 
+            </div>
+            <div class="pure-u-8-24">
+                <h2>Top & Worst Score Changed</h2>
+                <div id="stacked_bar_chart"></div>
+                <p2>*Select Positive or Negative to see your target country.</p2>
+            </div>
+        </div>        
+    </div>
+        
+    <div class="34text">
+        <div class="pure-g">
+            <div class="pure-u-16-24">
+                <p>The freedom index of each country is different from the freedom index of its people, and this chart reflects the correlation between <p1>National Freedom and People's Freedom</p1>.
+                The HFI report is often used by researchers in order to measure <p1>Democracy</p1>. Here each point represents a country, the size of the point reflects the degree of democracy in this country, the higher the score of pearl means the country is more democratic.</p>
+            </div>
+            <div class="pure-u-8-24">
+                <p>The index covers 159 countries from <p1>2008 to 2017</p1>. Here take 2008 as the base year for 2017, and select the 10 countries with the <p1>Largest and Smallest Changes</p1>, which are reflected in the extreme values of HFI score changes in this decade.</p>
+            </div>
+        </div>
+    </div>
   
-  var vis1 = "https://raw.githubusercontent.com/Emily0410/FIT3179/main/preapare%20sub%20week%209.json";
-  
-  vegaEmbed('#choropleth_map', vis1).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-  
-  var vis2 = "https://raw.githubusercontent.com/Emily0410/FIT3179/main/scatter%20for%20assignment.json";
-  
-  vegaEmbed('#scatter_plot', vis2).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-</script>
 
+    <div class="Cline">
+        <h2>HFI Time Trend</h2>
+           <div id="line_charts"></div>
+           <p2>*Select Region and Country to see your target country.</p2> 
+           <p>The Cato Institute's HFI covers data from <p1>2008 to 2017</p1>, with each country's scores and rankings changing dramatically or slightly each year. This chart shows <p1>Score and Trends</p1> for 159 countries over the years.</p>
+    </div> 
+  </div>  
+  <script type="text/javascript">
+      
+      var vis1 = "https://raw.githubusercontent.com/Emily0410/FIT3179/main/A.freedom%20situation.json";
+      vegaEmbed('#freedom_situation', vis1).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
+  
+      var vis2 = "https://raw.githubusercontent.com/Emily0410/FIT3179/main/A.score%20map.json";
+      vegaEmbed('#score_map', vis2).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
+    
+      var vis3 = "https://raw.githubusercontent.com/Emily0410/FIT3179/main/A.line%20charts.json";
+      vegaEmbed('#line_charts', vis3).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
+    
+      var vis4 = "https://raw.githubusercontent.com/Emily0410/FIT3179/main/A.scatter%20for%20assignment.json";
+      vegaEmbed('#bubble', vis4).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
+      
+      var vis5 = "https://raw.githubusercontent.com/Emily0410/FIT3179/main/A.stacked%20bar%20chart.json";
+      vegaEmbed('#stacked_bar_chart', vis5).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
+  </script>
+  
 </body>
 </html>
